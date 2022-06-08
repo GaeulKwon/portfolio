@@ -24,11 +24,12 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="navbar"></nav>
-    <div class="navbar__logo">
-      <img src="imgs/favicon.png" alt="logo" />
-      <a href="#">May</a>
-    </div>
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <img src="imgs/favicon.png" alt="logo" />
+        <a href="#">May</a>
+      </div>
+    </nav>
     <ul class="navbar__menu">
       <li class="navbar__menu__item">Home</li>
       <li class="navbar__menu__item">About</li>
@@ -37,6 +38,7 @@
       <li class="navbar__menu__item">Testimonials</li>
       <li class="navbar__menu__item">Contact</li>
     </ul>
+
     <!-- Home -->
     <section id="home">
       <img
@@ -50,14 +52,64 @@
       </h2>
       <button class="home__contact">Contact Me</button>
     </section>
+
     <!-- About -->
-    <section id="about"></section>
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        I am a frontend developer with a bachelor's degree in application
+        developement.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <div class="major__title">Front-end</div>
+          <div class="major__description">
+            HTML, CSS, JavaScript, <br />
+            React, Web APIS
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-server"></i>
+          </div>
+          <div class="major__title">Back-end</div>
+          <div class="major__description">
+            JavaScript, C#, NodeJS <br />
+            Rest APIs, ???
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-mobile-button"></i>
+          </div>
+          <div class="major__title">Mobile</div>
+          <div class="major__description">Android, Kotlin</div>
+        </div>
+      </div>
+      <div class="about__school">
+        <div class="school">
+          <img src="imgs/bc_logo.png" alt="BC" class="school__logo" />
+          <p class="school__name">
+            Graduated with bachelor's degree in Application Developement with
+            certification in data management at Bellevue College
+          </p>
+          <p class="school__period">Graduated on June 2022</p>
+        </div>
+      </div>
+    </section>
+
     <!-- Skills -->
     <section id="skills"></section>
+
     <!-- Work -->
     <section id="work"></section>
+
     <!-- Testimonials -->
     <section id="testimonials"></section>
+
     <!-- Contact -->
     <section id="contact"></section>
   </body>
