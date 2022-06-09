@@ -357,6 +357,13 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  opacity: 1;
+  transition: all var(--animation-duration) ease-out;
+}
+
+.work__projects.anim-out {
+  opacity: 0.6;
+  transform: scale(0.96) translateY(40px);
 }
 
 .project {
@@ -368,6 +375,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.project.invisible {
+  display: none;
 }
 
 .project__img {
@@ -442,9 +453,9 @@ p {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  width: 70px;
-  height: 70px;
-  font-size: 50px;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
   background-color: var(--color-blue);
   color: var(--color-white);
   border-radius: 50%;
