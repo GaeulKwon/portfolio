@@ -40,6 +40,7 @@
 /* Universal tags */
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -178,6 +179,10 @@ p {
   padding: 8px 12px;
   border: 2px solid var(--color-white);
   border-radius: 4px;
+}
+
+.home__contact:hover {
+  background-color: var(--color-yellow);
 }
 
 /* Section common */
